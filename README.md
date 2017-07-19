@@ -1,6 +1,6 @@
 ## DESCRIPTION
 Network Control API tester v1.0.0
-Tests implemented for phase1 calls
+Tests implemented for phase 1 calls. Implemented via NodeJS + Mocha&Chai
 
 ## INSTALLATION
 1. For Debian and Ubuntu based Linux distribs
