@@ -10,6 +10,8 @@ console.dir(argv)
 chai.use(chaiHttp)
 
 var request = chai.request
+if (argv.server.substr(argv.server.length - 1) == '/') argv.server = argv.server.substring(0, argv.server.length - 1)
+console.log("server: " + argv.server)
 if (argv.server) server = argv.server; else server = 'http://localhost:8081/dummies'
 chai.config.includeStack = true
 chai.config.truncateThreshold = 0
